@@ -3,9 +3,9 @@ name: Publish Docker image
 # Running when a tag with the pattern below is pushed
 on:
   push:
-    tags:
-      # SemVer (https://semver.org/), but prefixed with `v` and only with digits
-      - "v[0-9]+.[0-9]+.[0-9]+"
+#    tags:
+#      # SemVer (https://semver.org/), but prefixed with `v` and only with digits
+#      - "v[0-9]+.[0-9]+.[0-9]+"
 
 env:
   # Push to the GitHub Packages registry
